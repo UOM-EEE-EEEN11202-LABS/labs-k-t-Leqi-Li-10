@@ -4,14 +4,11 @@
 // Template file for code in Lab K
 // ----------------------------------------------------------------------------
 
-signed int h = 0, l = 0;
-double w = 0.0;
-double volume_cuboid = 0.0;
-
 int main(void) {
 
   // Declare variables
-  double h = 0.0, l = 0.0, w = 0.0;
+  signed int h = 0, l = 0;
+  double w = 0.0;
   double volume_cuboid = 0.0;
 
   // Set variables
