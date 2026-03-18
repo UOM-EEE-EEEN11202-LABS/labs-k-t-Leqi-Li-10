@@ -10,10 +10,12 @@ int main(void) {
   int vowel = 0;
   int email_len = 0;
 
+  // Calculate the length of the email
   while (my_email[email_len] != '\0') {
     email_len++;
   }
 
+  // Check if n is in a valid range
   if (n < 0 || n >= email_len) {
     printf("Error"); // place as needed in the code. You can use more than once.
   } else {
