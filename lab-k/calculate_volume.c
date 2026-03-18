@@ -4,9 +4,23 @@
 // Template file for code in Lab K
 // ----------------------------------------------------------------------------
 
+signed int h = 0, l = 0;
+double w = 0.0;
+double volume_cuboid = 0.0;
+
 int main(void) {
-  double h, l;
-  double w = 0.0;
+
+  // Declare variables
+  double h = 0.0, l = 0.0, w = 0.0;
+  double volume_cuboid = 0.0;
+
+  // Set variables
+  h = 3.0;
+  l = 2.0;
+  w = 2.2;
+
+  // Calculate volume
+  volume_cuboid = h * w * l;
 
   return 0;
 }
